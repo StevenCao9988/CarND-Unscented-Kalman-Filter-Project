@@ -52,6 +52,10 @@ OUTPUT: values provided by the c++ program to the simulator
   * Mac: same deal as make - [install Xcode command line tools](https://developer.apple.com/xcode/features/)
   * Windows: recommend using [MinGW](http://www.mingw.org/)
 
+## Main.c
+There is another file named 'main_txt.c', whose function is reading excel and outputing txt after caculation;
+The normal 'main.c' is used to communicate with simulation software; 
+
 ## Basic Build Instructions
 
 1. Clone this repo.
@@ -61,9 +65,9 @@ OUTPUT: values provided by the c++ program to the simulator
 
 ## Result
 use the result of 'before' and 'after' tuning noise to show the significant effect of UKF;
-1. the location of groundtruth and result of kalman filter;
-2.the NIS of lidar and radar;
-3. a txt sheet, include detail massage;
-4. a video of simulator to show it more intuitively; 
+1. The location of groundtruth and result of kalman filter;
+2. The NIS of lidar and radar;
+3. A txt sheet, include detail massage;
+4. A video of simulator to show it more intuitively; 
 
 
