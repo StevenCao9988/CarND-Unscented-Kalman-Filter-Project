@@ -1,3 +1,11 @@
+## Result
+use the result of 'before' and 'after' tuning noise to show the significant effect of UKF;
+1. The location of groundtruth and result of kalman filter;
+2. The NIS of lidar and radar;
+3. A txt sheet, include detail massage;
+4. A video of simulator to show it more intuitively; 
+5. The MATLAB code to analyze the result
+
 # Unscented Kalman Filter Project Starter Code
 Self-Driving Car Engineer Nanodegree Program
 
@@ -63,12 +71,6 @@ The normal 'main.c' is used to communicate with simulation software;
 3. Compile: `cmake .. && make`
 4. Run it: `./UnscentedKF`
 
-## Result
-use the result of 'before' and 'after' tuning noise to show the significant effect of UKF;
-1. The location of groundtruth and result of kalman filter;
-2. The NIS of lidar and radar;
-3. A txt sheet, include detail massage;
-4. A video of simulator to show it more intuitively; 
-5. The MATLAB code to analyze the result
+
 
 
